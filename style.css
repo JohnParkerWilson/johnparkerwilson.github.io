@@ -1,0 +1,116 @@
+
+/* Wild background */
+body {
+  background: linear-gradient(45deg, hotpink, yellow, lime, cyan, violet);
+  background-size: 400% 400%;
+  animation: bgScroll 20s linear infinite;
+  font-family: "Comic Sans MS", "Papyrus", "Times New Roman", cursive;
+  color: #000;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Animated rainbow background effect */
+@keyframes bgScroll {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Headers with glowing text */
+h1, h2, h3 {
+  color: lime;
+  text-shadow: 2px 2px 5px magenta, -2px -2px 5px cyan;
+  border: 3px dashed red;
+  background: black;
+  padding: 10px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+/* Links – bright, underlined, hover crazy */
+a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+    background: yellow;
+    cursor: crosshair;
+}
+
+/* Content with tiled background */
+.content {
+    background: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    border: 5px ridge yellow;
+    margin: 20px;
+    margin-left: 220px; /* Same as sidebar width */
+    padding: 1.5rem;
+}
+
+/* Buttons like old-school input */
+button {
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive;
+    background: lime;
+    border: 4px outset pink;
+    padding: 10px 15px;
+}
+button:active {
+    border: 4px inset pink;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background: #ff00ff;
+    border: 5px groove yellow;
+    padding: 10px;
+    height: 100vh;              /* Full height */
+    width: 220px;               /* Sidebar width */
+    position: fixed;            /* Stays in place */
+    top: 0;
+    left: 0;
+    /*background-color: #333;*/
+    /*color: white;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+  color: white
+}
+
+audio {
+  border: 4px ridge lime;
+  background: magenta;
+  padding: 5px;
+  width: 250px;
+}
+
+figure {
+  text-align: left;       /* centers image + caption */
+  margin: 20px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+  color: black;
+  margin-top: 5px;
+}

@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artificial Chess Player Proposal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Side Navigation -->
+  <nav class="sidebar">
+    <h2>Proposal for an Artifical Chess Player</h2>
+    <a href="index.html">Home</a>
+    <a href="intro.html">Introduction</a>
+    <a href="sensors.html">Sensors</a>
+    <a href="board.html">Board State Recognition</a>
+    <a href="successes.html">Successes</a>
+    <a href="limitations.html">Limitations</a>
+    <a href="conclusions.html">Future and Conclusions</a>
+    <a href="references.html">References</a>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="content">
+    <figure>
+        <figcaption>Audio narration</figcaption>
+        <audio controls autoplay loop>
+            <source src="media/PapercutMidi.mp3" type="audio/mp3">
+        </audio>
+    </figure>
+
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Welcome</h1>
     </header>
+    <img src="media/robot1.png" width="300">
+    <section>
+      <p>The idea that I am proposing is a way to use your own camera on either your phone or other device to scan a chess game, the board and its pieces, to which an agent would then give moves to pieces based on the information gained from the image of the game. This would allow for a person playing a physical game of chess to play with a second player with their device acting as an opponent. While there do exist software or specialized chess boards that allow for a person to play against a computer, when it comes to the game physically, in the real world, there are a number of machines that utilize cameras or other sensors to detect a board and then use a mechanical arm to move pieces around, or have another human perform the moves on its behalf. By allowing a user to use their own device for the game, it eliminates the need for having to carry around a large robot with a fixed camera, and instead opting for the convenience of  their own device.</p>
+    </section>
+  </main>
 
-    <main>
-        <section>
-            <h2>Main Content</h2>
-            <p>This is a basic template for a simple website.</p>
-            <button onclick="sayHello()">Click Me</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
 </body>
 </html>
