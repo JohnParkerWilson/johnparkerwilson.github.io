@@ -114,3 +114,10 @@ figcaption {
   color: black;
   margin-top: 5px;
 }
+
+#hiddenText {
+  display: none; /* start hidden */
+  margin-top: 10px;
+  font-weight: bold;
+  color: darkblue;
+}

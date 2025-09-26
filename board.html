@@ -10,7 +10,7 @@
 
   <!-- Side Navigation -->
   <nav class="sidebar">
-    <h2>Proposal for an Artifical Chess Player</h2>
+    <h2><marquee direction="left">Proposal for an Artifical Chess Player</marquee></h2>
     <a href="index.html">Home</a>
     <a href="intro.html">Introduction</a>
     <a href="sensors.html">Sensors</a>
@@ -26,9 +26,14 @@
     <header>
       <h1>Survey of Board State Recognition</h1>
     </header>
+    <figure>
+        <figcaption>Audio narration</figcaption>
+        <audio controls autoplay loop>
+            <source src="media/PapercutMidi.mp3" type="audio/mp3">
+        </audio>
+    </figure>
     <section>
-        <p>The idea is that the device with the agent would capture an image of the board, single out each individual piece, card, and/or dice in the image and convert that into data for the state of the board for the agent to use. In order to recognize the board state, said image would then be sent through openCV. Through OpenCV, the agent would utilize edge detection and contour recognition in order to define the objects, in this case being pieces and their positions on the board. It would first define the board and its tiles, then it would define the pieces on the board and determine their positions based on what tiles they stand on. When it comes to models for detection, there are many models available that have been already trained for boards and pieces.</p>
-        
+        <p>The idea is that the device with the agent would capture an image of the board, single out each individual piece, card, and/or dice in the image and convert that into data for the state of the board for the agent to use. In order to recognize the board state, said image would then be sent through openCV. Through OpenCV, using a homography-based method we would first define the board and its tiles, and utilize edge detection and contour recognition in order to define the objects, in this case being pieces and their positions on the board. When it comes to models for detection, there are many models available that have been already trained for boards and pieces.</p>        
         <div class="slideshow-container">
 
           <!-- Slides -->

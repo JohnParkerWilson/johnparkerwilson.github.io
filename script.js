@@ -31,3 +31,8 @@ function showSlides(n) {
 setInterval(() => {
   plusSlides(1);
 }, 4000); // Change slide every 4 seconds
+
+// For quiz
+function revealText() {
+  document.getElementById("hiddenText").style.display = "block";
+}
