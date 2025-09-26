@@ -1,9 +1,10 @@
 
 /* Wild background */
 body {
-  background: linear-gradient(45deg, hotpink, yellow, lime, cyan, violet);
+  background-image: url("media/backgrblue.gif");
+  /*background: linear-gradient(45deg, hotpink, yellow, lime, cyan, violet);
   background-size: 400% 400%;
-  animation: bgScroll 20s linear infinite;
+  animation: bgScroll 20s linear infinite;*/
   font-family: "Comic Sans MS", "Papyrus", "Times New Roman", cursive;
   color: #000;
   margin: 0;
